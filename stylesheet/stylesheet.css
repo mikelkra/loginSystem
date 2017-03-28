@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+#bodyID {
+
+	background: url(http://bestanimations.com/Nature/Water/endless-ocean-gif.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+}
+
+.input-group {
+	margin-bottom: 1%;
+}
+
+legend {
+	text-align: center;
+	color:white;
+}
+
+#registerRow, #loginRow {
+	position: absolute;
+	top: 240px;
+}
+#start {
+	    margin-top: 150px;
+}
+#start a{
+    font-size: 25px;
+    color: #3e557e;
+    text-decoration: none;
+    cursor: pointer;
+}
+#start a:hover, #start a:active, #start a:focus{
+	color: white;
+}
+#regE, #regP, #regConfP,#logE, #logP{
+	background-color: rgba(43, 71, 107, 0.67);
+	color:white;
+}
+#loginRow .btn-primary, #registerRow .btn-primary{
+	width:100%;
+}
+
+
+
+
+
+
+
