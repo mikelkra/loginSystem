@@ -1,16 +1,14 @@
+$(document).ready(init());
 function init(){
-	
 	//hide show effects between login and register form
 	$("#loginShow").click(function(){
 	    $("#loginRow").fadeIn(800);
 	    $("#registerRow").fadeOut(200);
 	});
-	
 	$("#registerShow").click(function(){
 	    $("#registerRow").fadeIn(800);
 	    $("#loginRow").fadeOut(200);
 	});
-	
 	
 	//ajax call for login form
 	$("#logForm").submit(function(e){
@@ -57,6 +55,6 @@ function init(){
 	
 	
 }
-$(document).ready(init());
+
 
 
